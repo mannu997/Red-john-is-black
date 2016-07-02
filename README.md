@@ -25,6 +25,7 @@ Sample Output
 
 1001
 999
+
 Explanation
 
 In first test case, you will pick 999,1,1. If you play in any other way, you will not get a score of 1001. 
