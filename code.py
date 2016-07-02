@@ -1,5 +1,5 @@
 def bricks(a):
-    dp=[0]*(n)
+    dp=[0]*(n)              
     suma=[0]*(n)
     suma[0]=a[0]
     for i in range(1,n):
@@ -11,7 +11,7 @@ def bricks(a):
         dp[k]=max((suma[k-1]-dp[k-1])+a[k],(suma[k-2]-dp[k-2])+a[k]+a[k-1],(suma[k-3]-dp[k-3])+a[k]+a[k-1]+a[k-2])
     return dp[n-1]
 
-t=input()       #takes input from user
+t=input()       
 for _ in range(t):
     n=input()
     arr=map(int,raw_input().strip().split(" "))
