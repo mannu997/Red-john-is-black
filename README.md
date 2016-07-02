@@ -19,6 +19,8 @@ Sample Input
 999 1 1 1 0
 5
 0 1 1 1 999
+
+
 Sample Output
 
 1001
